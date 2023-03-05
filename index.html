@@ -9,15 +9,22 @@
   </head>
 
   <body>
-
     <header class="header">
       <div class="logo">
-        <img src="./img/header/common_logo_title_m.png" alt="Logo-img" />
+        <img
+          class="logo-img"
+          src="./img/header/common_logo_title_m.png"
+          alt="Logo-img"
+        />
       </div>
       <nav class="navigation">
         <a class="nav-item nav-1" href="./second-level-pages/TOP.html">TOP</a>
-        <a class="nav-item nav-2" href="./second-level-pages/SYSTEM.html">SYSTEM</a>
-        <a class="nav-item nav-3" href="./second-level-pages/MOVIE.html">MOVIE</a>
+        <a class="nav-item nav-2" href="./second-level-pages/SYSTEM.html"
+          >SYSTEM</a
+        >
+        <a class="nav-item nav-3" href="./second-level-pages/MOVIE.html"
+          >MOVIE</a
+        >
         <a class="nav-item nav-4" href="./second-level-pages/FAQ.html">FAQ</a>
       </nav>
     </header>
@@ -25,18 +32,24 @@
     <div class="main">
       <section class="section-1">
         <div class="s1-left-description">
-          <p class="s1-ld-game-title">WO LONG</p>
-          <p class="s1-ld-des-1">Battles based on Spirit strategies</p>
-          <p class="s1-ld-des-2">
+          <div class="s1-ld-game-title">WO LONG</div>
+          <div class="s1-ld-des-1">Battles based on Spirit strategies</div>
+          <div class="s1-ld-des-2">
             By raising Spirit, the Qi stored can be used as energy to unleash
             powerful attacks of martial arts and Wizardy Spells. However,
             running out of Spirit will put the player at a disadvantage, so how
             and when it is used is key.
-          </p>
+          </div>
           <button class="s1-ld-buy">Click here to purchase</button>
         </div>
 
-        <div class="right-img-or-movie">
+        <div class="s1-right-img-or-movie">
+          <!-- <img
+            class="s1-img"
+            src="./img/section-1/top_hero_image.webp"
+            alt="Hero and dragon"
+          /> -->
+
           <style>
             .embed-container {
               position: relative;
@@ -55,7 +68,8 @@
               height: 100%;
             }
           </style>
-          <div class="s1-rd-embed-container">
+
+          <div class="embed-container">
             <iframe
               src="https://www.youtube.com/embed/1P9s_XCD1EE"
               frameborder="0"
@@ -66,48 +80,86 @@
       </section>
 
       <section class="section-2">
-        <div class="s2-title">
-          Various playstyles through weapons and Wizardry Spells
-        </div>
+        <div class="s2-title">Various playstyles</div>
+
         <div class="s2-game-style-container">
           <div class="s2-game-style s2-gs-1">
             <div class="gs-img">
-              <img src="./img/section-2/system_weapon_img_01.jpeg" alt="Weapons"/>
+              <img
+                class="gs-img-r"
+                src="./img/section-2/system_weapon_img_01.jpeg"
+                alt="Weapons"
+              />
+            </div>
             <div class="gs-des-1">Weapons</div>
-            <div class="gs-des-2">Select your weapon of preference from among various types. These are examples of some of them.</div>
+            <div class="gs-des-2">
+              Select your weapon of preference from among various types. These
+              are examples of some of them
+            </div>
           </div>
 
-
-         <div class="s2-game-style s2-gs-2">
+          <div class="s2-game-style s2-gs-2">
             <div class="gs-img">
-              <img src="./img/section-2/xian.jpeg" alt="Wizardry Spell"/>
+              <img
+                class="gs-img-r"
+                src="./img/section-2/xian.jpeg"
+                alt="Wizardry Spell"
+              />
+            </div>
             <div class="gs-des-1">Wizardry Spell</div>
-            <div class="gs-des-2">Secret spells that draw upon the power of the Five Phases, and can provide a way to breakthrough situations where weapons aren't effective. Raising your Morale Rank can enable the use of powerful Wizardry Spells.</div>
+            <div class="gs-des-2">
+              Raising your Morale Rank can enable the use of powerful Wizardry
+              Spells
+            </div>
           </div>
 
-            <div class="s2-game-style s2-gs-3">
+          <div class="s2-game-style s2-gs-3">
             <div class="gs-img">
-              <img src="./img/section-2/shenshou.jpeg" alt="Divine Beasts"/>
+              <img
+                class="gs-img-r"
+                src="./img/section-2/shenshou.jpeg"
+                alt="Divine Beasts"
+              />
+            </div>
             <div class="gs-des-1">Divine Beasts</div>
-            <div class="gs-des-2">Divine Beasts that are born from bonds with warriors, and summoning them unleashes great power.</div>
+            <div class="gs-des-2">
+              Divine Beasts that are born from bonds with warriors, and
+              summoning them unleashes great power
+            </div>
           </div>
 
           <div class="s2-game-style s2-gs-4">
             <div class="gs-img">
-              <img src="./img/section-2/hezuo.webp" alt="Cooperate to Conquer"/>
+              <img
+                class="gs-img-r"
+                src="./img/section-2/hezuo.webp"
+                alt="Cooperate to Conquer"
+              />
+            </div>
             <div class="gs-des-1">Cooperate to Conquer</div>
-            <div class="gs-des-2">Online co-op will help players defeat the most formidable foes and toughest battlefields. By joining forces with friends, you will have the chance to takedown even the most fearsome monsters in the game!</div>
+            <div class="gs-des-2">
+              By joining forces with friends, you will have the chance to
+              takedown even the most fearsome monsters in the game
+            </div>
           </div>
-
         </div>
       </section>
 
-
       <section class="section-3">
         <quota class="quota">
-          <div class="quota-1">Apart from these technical blemishes, Wo Long is an exceptionally accomplished evolution. It doesn't have the same variety as something like Elden Ring, but its focus on Wuxia-style martial arts puts it a cut above its peers. It's a game where challenges feel exciting rather than punishing because the learning curve is so exquisite and mastery feels sublime. Team Ninja has really managed to push the envelope, and lovers of Wuxia cinema and action RPGs had best not miss this one. </div>
+          <div class="quota-1">
+            <em
+              >Apart from these technical blemishes, Wo Long is an exceptionally
+              accomplished evolution. It doesn't have the same variety as
+              something like Elden Ring, but its focus on Wuxia-style martial
+              arts puts it a cut above its peers. It's a game where challenges
+              feel exciting rather than punishing because the learning curve is
+              so exquisite and mastery feels sublime. Team Ninja has really
+              managed to push the envelope, and lovers of Wuxia cinema and
+              action RPGs had best not miss this one.</em
+            >
+          </div>
           <div class="quota-1-who">- PC Gamer</div>
-
         </quota>
       </section>
 
@@ -117,16 +169,16 @@
             <div class="s4-left-line-1">Buy it! It's time!</div>
             <div class="s4-left-line-2">Available on multiple platforms!</div>
           </div>
+
           <div class="s4-con-right">
             <button class="s4-buy-button">Click here to purchase</button>
           </div>
         </div>
-
       </section>
     </div>
 
     <footer class="footer">
-      <div class="copyright">Copyright © WO LONG 2023 </div>
+      <div class="copyright">Copyright © WO LONG 2023</div>
     </footer>
   </body>
 </html>
